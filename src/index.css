@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Background colors for chipload tables */
+.metric-row-1 {
+  background-color: #f4cccc; /* Light red */
+}
+.metric-row-2 {
+  background-color: #cfe2f3; /* Light blue */
+}
+.metric-row-3 {
+  background-color: #fff2cc; /* Light yellow */
+}
+.metric-row-4 {
+  background-color: #d9ead3; /* Light green */
+}
+
+.standard-row-1 {
+  background-color: #f4cccc; /* Light red */
+}
+.standard-row-2 {
+  background-color: #cfe2f3; /* Light blue */
+}
+.standard-row-3 {
+  background-color: #fff2cc; /* Light yellow */
+}
+.standard-row-4 {
+  background-color: #d9ead3; /* Light green */
+}
+
+/* Flex container for the calculators */
+.calculator-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adds margin between calculators */
+}
+
+/* Style for each calculator */
+.calculator {
+  flex: 1; /* Each calculator takes equal width */
+  max-width: 48%; /* Ensure calculators do not exceed 48% width */
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background for visual separation */
+}
